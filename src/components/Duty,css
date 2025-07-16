@@ -1,0 +1,223 @@
+/* Container */
+
+.form-container {
+
+  width: 1096px;
+
+  margin: 50px auto;
+
+  padding: 20px;
+
+  background-color: #f5f7fa;
+
+  border-radius: 8px;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+ 
+/* Header box */
+
+.form-header {
+
+  width: 100%;
+
+  height: 50px;
+
+  padding: 1px;
+
+  border: 2px solid grey;
+
+  border-radius: 4px;
+
+  opacity: 1;
+
+  background-color: #CDCFD3;
+
+  display: flex;
+
+  align-items: center;
+
+  margin-bottom: 30px;
+
+}
+ 
+/* Title text */
+
+.form-title {
+
+  font-family: 'Inter', sans-serif;
+
+  font-weight: 500;
+
+  font-size: 20px;
+
+  line-height: 30px;
+
+  letter-spacing: 0;
+
+  margin: 0;
+
+  color: #242c40;
+
+}
+ 
+/* Form body layout */
+
+.form-body {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 20px;
+
+}
+ 
+/* Two fields side by side */
+
+.form-row.dual {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 40px;
+
+  width: 40%;
+
+  height: 100%;
+
+}
+ 
+/* Each field column */
+
+.form-field {
+
+  flex: 1;
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+ 
+/* Labels */
+
+.form-field label {
+
+  margin-bottom: 8px;
+
+  font-family: 'Inter', sans-serif;
+
+  font-size: 16px;
+
+  font-weight: 500;
+
+  color: #062643;
+
+}
+ 
+/* Inputs */
+
+.form-field input {
+
+  height: 36px;
+
+  padding: 2px 4px;
+
+  font-family: 'Inter', sans-serif;
+
+  font-size: 14px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 4px;
+
+  width: 256px;
+
+}
+ 
+/* Required star */
+
+.required {
+
+  color: red;
+
+  margin-left: 4px;
+
+}
+ 
+/* Button container aligned to right */
+
+.form-actions {
+
+  display: flex;
+
+  justify-content: flex-end; /* Align buttons to right */
+
+  gap: 7px;
+
+  margin-top: 5px;
+
+}
+ 
+/* Back Button */
+
+.btn-back {
+
+  width: 256px;
+
+  height: 48px;
+
+  background-color: #D8E9F0;
+
+  color: #000;
+
+  border: none;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  opacity: 1;
+
+  font-family: 'Inter', sans-serif;
+
+  font-size: 16px;
+
+  font-weight: 500;
+
+}
+ 
+/* Submit Button */
+
+.btn-submit {
+
+  width: 256px;
+
+  height: 48px;
+
+  background-color: #02437B;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  opacity: 1;
+
+  font-family: 'Inter', sans-serif;
+
+  font-size: 16px;
+
+  font-weight: 500;
+
+}

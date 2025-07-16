@@ -1,0 +1,161 @@
+.user-form-container {
+  width: 1112px;
+  height: 322px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto; /* Center it horizontally */
+  border-radius: 6px; /* optional: matches your design */
+}
+ 
+.user-form-header {
+  background-color: #d3d3d8;
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 25px;
+}
+ 
+.user-form-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+ 
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #2e2e2e;
+}
+ 
+.form-group input,
+.form-group select {
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: #333;
+}
+ 
+.form-group input::placeholder {
+  color: #b1b1b1;
+}
+ 
+.required {
+  color: red;
+}
+ 
+.user-form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  gap: 20px;
+}
+ 
+.btn-back,
+.btn-submit {
+  padding: 10px 30px;
+  font-size: 15px;
+  border-radius: 8px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+ 
+.btn-back {
+  background-color: #d8e9f1;
+  color: #2c2c2c;
+}
+ 
+.btn-submit {
+  background-color: #003366;
+  color: white;
+}
+.user-form-container {
+  margin: 30px auto;
+  padding: 20px 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+ 
+.user-form-header {
+  background-color: #d3d3d8;
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 25px;
+}
+ 
+.user-form-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+ 
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #2e2e2e;
+}
+ 
+.form-group input,
+.form-group select {
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: #333;
+}
+ 
+.form-group input::placeholder {
+  color: #b1b1b1;
+}
+ 
+.required {
+  color: red;
+}
+ 
+.user-form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  gap: 20px;
+}
+.btn-back,
+.btn-submit {
+  width: 256px;
+  height: 48px;
+  font-size: 15px;
+  border-radius: 8px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+ 
+.btn-back {
+  background-color: #d8e9f1;
+  color: #2c2c2c;
+}
+ 
+.btn-submit {
+  background-color: #003366;
+  color: white;
+}
+ 
