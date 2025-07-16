@@ -36,7 +36,7 @@ const Service = () => {
       </div>
 
       {/* Service Top Form */}
-      <div className="form-top-row">
+      <div className="form-top-row-modified">
         <div className="form-group">
           <label>Service Code<span className="required">*</span></label>
           <input
