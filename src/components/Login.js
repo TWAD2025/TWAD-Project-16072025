@@ -13,9 +13,7 @@ const Login = () => {
   const handleSignIn = (e) => {
     e.preventDefault();
     const form=e.target;
-    navigate('/Dashboard');
-    
-    
+    navigate('/Dashboard');    
 
 };
 const handleForgotPassword = () => {
